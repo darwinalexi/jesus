@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(blue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.li{
+    display: block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 30px 10px;
+    padding: 15px 30px;
+    background-color: rgb(240, 181, 105);
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    color: #000;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    margin: 4px;
+    position: relative;
+    
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: yellow;
+  }
+  
+  a:hover {
+    background: orange;
+  }
+  
+  a:active {
+    background: red;
+    color: white;
