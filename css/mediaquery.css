@@ -71,7 +71,7 @@
       padding: 30px;
       height: 120px;
       width: 100%;
-      transition: all 2s;
+      transition: all 0.7s;
       left: -150px;
     }
 
@@ -103,6 +103,8 @@
     }
   
     .hamburguer-menu {
+      position: relative;
+      bottom: 100px;
       display: inline-block;
       color: #10315D;
       font-size: 2.3em;
@@ -118,7 +120,8 @@
     }
   
     .logo {
-      display: none;
+    position: relative;
+    left: 300px;
     }
   
     nav {
