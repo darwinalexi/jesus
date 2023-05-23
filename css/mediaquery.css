@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hamburguer-menu {
+    display: none;
+  }
+  
+  nav {
+    background-color: #10315D;
+    height: 100px;
+    align-items: right;
+    padding: 25px 25px;
+    height: 90px;
+    margin: 0;
+  }
+  
+  .main-menu {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+  }
+  
+  .logo {
+    display: inline-flex;
+    margin-top: 0;
+    margin-left: 0;
+    float: left;
+    width: 300px;
+    height: 80px;
+  }
+  
+  .item-style {
+    display: inline-block;
+    list-style: none;
+    width: 12%;
+    padding: 5px 10px;
+    background-color: #10315D;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .item-style:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .main-menu {
+      position: fixed;
+      left: -380px;
+      transition: all 0.5s; /* Agregar la transición */
+      left: -380px;
+    }
+    
+    .main-menu:hover {
+      left: 0;
+    }
+    
+    .main-menu-block {
+      display: block;
+      padding: 30px;
+      height: 120px;
+      width: 100%;
+      transition: all 2s;
+      left: -150px;
+    }
+
+    .main-menu-block:hover{
+        left: 0;
+    }
+  
+    .item-style {
+      display: block;
+      list-style: none;
+      width: 300px;
+      padding: 5px 10px;
+      background-color: #10315D;
+      opacity: 0,5;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      border-bottom: 1px solid #000;
+      transition: all 2s;
+      position: relative;
+      left: 60px;
+    }
+  
+    .item-style:hover {
+        left: 0;
+      width: 30%;
+      background-color: #10315D;
+      color: #fff;
+    }
+  
+    .hamburguer-menu {
+      display: inline-block;
+      color: #10315D;
+      font-size: 2.3em;
+      margin-top: 18px;
+      margin-left: 25px;
+      width: 100%;
+      transition: all 0.5s; /* Agregar la transición */
+    }
+  
+    .hamburguer-menu:hover {
+      cursor: pointer;
+      left: 0;
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    nav {
+      background-color: #fff;
+    }
+  }
