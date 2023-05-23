@@ -53,6 +53,7 @@
     color: #000;
   }
 
+  /* se utiliza para hacer modificaciones segun el tamaño de la pagina*/
   @media only screen and (max-width: 850px) {
     .main-menu {
       position: fixed;
