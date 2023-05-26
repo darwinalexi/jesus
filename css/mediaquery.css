@@ -4,6 +4,7 @@
   }
   
   .hamburguer-menu {
+    /*se usa para desaparecer elementos*/
     display: none;
   }
   
@@ -57,30 +58,33 @@
   @media only screen and (max-width: 850px) {
     .main-menu {
       position: fixed;
-      left: -380px;
-      transition: all 0.5s; /* Agregar la transición */
-      left: -380px;
-    }
-    
-    .main-menu:hover {
-      left: 0;
+      left: -100%;
+      transition: all 1s; /* Agregar la transición */
+      text-align: center;
+      margin-top: 22px;
     }
     
     .main-menu-block {
       display: block;
       padding: 30px;
-      height: 120px;
-      width: 100%;
-      transition: all 0.7s;
-      left: -150px;
+      height: 86px;
+      width: 120%;
+      transition: all 1s;
+      background-color:rgb(48, 48, 48, .8) ;
+      left: -90px;
+      position: fixed;
+      margin: 0;
+      
     }
 
-    .main-menu-block:hover{
-        left: 0;
+    .main{
+      position: relative;
+      top: -59px;
     }
   
     .item-style {
       display: block;
+      /*no deja mostrar los puntos de las listas*/ 
       list-style: none;
       width: 300px;
       padding: 5px 10px;
@@ -92,15 +96,20 @@
       border-bottom: 1px solid #000;
       transition: all 2s;
       position: relative;
-      left: 60px;
+      top: -30px;
+      left: 0;
+      background-color:transparent;
+      width: 100%;
+      cursor: pointer;
+      
     }
-  
+  /* deja mover los items y hacer cambios*/
     .item-style:hover {
-        left: 0;
-      width: 30%;
-      background-color: #10315D;
-      color: #fff;
-    }
+      left: 230px;
+    width: 30%;
+    background-color: #10315D;
+    color: #fff;
+  }
   
     .hamburguer-menu {
       position: relative;
@@ -120,8 +129,8 @@
     }
   
     .logo {
-    position: relative;
-    left: 300px;
+      /*prmite alinear elementos a cualquir lado*/
+    float: right;
     }
   
     nav {
