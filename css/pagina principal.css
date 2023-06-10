@@ -1,23 +1,24 @@
-*{
-  margin:0;
-padding: 0;
-background-color: #103357;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #103357;
 }
 
-video{
-width: 100%;
-height: 400%;
+video {
+  width: 100%;
+  height: 400%;
 }
-img{
+
+img {
   text-align: center;
   position: absolute;
   top: 80px;
   left: 450px;
   width: 300px;
   height: 400px;
-
 }
-.print{
+
+.print {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,13 +28,13 @@ img{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   text-decoration: none;
-
 }
+
 a {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  width:28%;
+  width: 28%;
   right: 100px;
   height: 30%;
   margin-right: 25px;
@@ -42,12 +43,12 @@ a {
   color: black;
   margin-left: 30px;
   position: relative;
-  left: 20px ;
+  left: 20px;
   transition: all 0.3s;
-  border-bottom: 2px solid orange ;
-  
+  border-bottom: 2px solid orange;
 }
-a:hover{
+
+a:hover {
   left: 30px;
 }
 
@@ -57,12 +58,12 @@ li:last-child a {
 /*Esta parte selecciona los enlaces que no han sido visitados (:link), 
 los enlaces que han sido visitados (:visited), y los enlaces que están enfocados (:focus).
  En este caso, se aplica el estilo de fondo amarillo a estos enlaces.*/
-a:link, a:visited, a:focus {
+a:link,
+a:visited,
+a:focus {
   background: yellow;
 }
-/*Esta parte selecciona los enlaces cuando el cursor del mouse se sitúa sobre ellos,
- lo que se conoce como "estado hover". 
-En este caso, se aplica el estilo de fondo naranja a estos enlaces.*/
+
 a:hover {
   background: orange;
 }
@@ -73,7 +74,8 @@ a:active {
   background: red;
   color: white;
 }
-h1{
+
+h1 {
   position: absolute;
   bottom: 300px;
   left: 467px;
