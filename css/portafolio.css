@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 350px;
+}
+
+.box {
+    width: 270px;
+    height: 880px;
+    background-color: hsl(182, 48%, 27%);
+    text-align: center;
+    position: fixed;
+}
+
+.NOM {
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left:-35px;
+    cursor: pointer
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 220px;
+}
+
+p {
+    position: relative;
+    
+}
+
+.dar {
+    position: relative;
+    top: 250px;
+    left: -35px;
+    cursor: pointer
+}
+
+i {
+    color: #000;
+    font-size: 40px;
+    margin: 10px;
+    position: relative;
+    top: 500px;
+    bottom: 300px;
+    left: 500px;
+    cursor: pointer;
+}
+
+.main-box {
+    position: relative;
+    bottom: 400px;
+    display: flex;
+}
+
+.infor {
+    position: relative;
+    left: 270px;
+    top: 700px;
+}
+
+h1 {
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+p {
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.NUM {
+    text-align: center;
+    position: relative;
+    bottom: 870px;
+    left: 540px;
+    top: 100px;
+}
+
+.profesion {
+    font-size: 60px;
+    float: right;
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+}
+
+.perfil {
+    font-size: 60px;
+    float: right;
+    position: relative;
+    top: 80px;
+    left:280px;
+    cursor: pointer
+}
+
+.perfil1 {
+    position: relative;
+    top: 70px;
+    left: 280px;
+    cursor: pointer
+}
+
+.numero {
+    position: relative;
+}
+
+.darwind {
+    position: relative;
+    top: 600px;
+}
+.work{
+    position: absolute;
+    right: 400px;
+    left: 266px;
+    bottom: -997px;
+   
+}
+a{
+    margin: 14px;
+    width: 10px;
+    height: 5px;
+    background-color: aquamarine;
+    border-radius: 5%;
+    text-decoration: none;
+}
+a:hover{
+    background-color: brown;
+    opacity: 0.2px;
+}
