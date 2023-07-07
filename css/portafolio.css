@@ -2,29 +2,37 @@
     padding: 0;
     margin: 0;
     width: 350px;
+    background-color: hsl(182, 48%, 20%);
+  
 }
 
 .box {
-    width: 270px;
+    width: 265px;
     height: 880px;
     background-color: hsl(182, 48%, 27%);
     text-align: center;
     position: fixed;
+    list-style: none;
 }
 
 .NOM {
     font-size: 20px;
     position: absolute;
-    top: 200px;
-    left:-35px;
-    cursor: pointer
+    top: 190px;
+    left:-3px;
+    cursor: pointer;
+    background-color: hsl(182, 48%, 27%);
+    width: 250px;;
+
 }
 
 img {
-    width: 150px;
+    width: 130px;
     height: 150px;
     position: relative;
     top: 220px;
+    background-color: hsl(182, 48%, 27%);
+
 }
 
 p {
@@ -35,8 +43,21 @@ p {
 .dar {
     position: relative;
     top: 250px;
-    left: -35px;
-    cursor: pointer
+    left: -6px;
+    cursor: pointer;
+    background-color: hsl(182, 48%, 27%);
+    width: 250px;
+    z-index: 1;
+}
+
+.darwin{
+    position: relative;
+    top: 280px;
+    left: -6px;
+    cursor: pointer;
+    width: 250px;
+    height: 8px;
+    background-color: hsl(182, 48%, 27%);
 }
 
 i {
@@ -83,32 +104,27 @@ p {
     float: right;
     position: relative;
     bottom: 400px;
-    left: 600px;
+    left: 690px;
+    top: 80px;
 }
 
 .perfil {
     font-size: 60px;
     float: right;
     position: relative;
-    top: 80px;
-    left:280px;
-    cursor: pointer
+    top: 50px;
+    left: 280px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .perfil1 {
     position: relative;
-    top: 70px;
+    bottom: -120px;
     left: 280px;
-    cursor: pointer
-}
-
-.numero {
-    position: relative;
-}
-
-.darwind {
-    position: relative;
-    top: 600px;
+    cursor: pointer;
+    height: auto;
+    
 }
 .work{
     position: absolute;
@@ -121,11 +137,33 @@ a{
     margin: 14px;
     width: 10px;
     height: 5px;
-    background-color: aquamarine;
     border-radius: 5%;
     text-decoration: none;
+    width: 20px;
+    height: 10px;
+    border-radius: 5% solid 2px color brown;
 }
 a:hover{
     background-color: brown;
     opacity: 0.2px;
+}
+.DARWIN{
+    position: relative;
+    top: 270px;
+    left: -6px;
+    cursor: pointer;
+    background-color: hsl(182, 48%, 27%);
+    width: 250px;
+    z-index: 1;
+    bottom: 230px;
+}
+.darwin1{
+    position: relative;
+    left: -6px;
+    cursor: pointer;
+    width: 250px;
+    height: 8px;
+    background-color: hsl(182, 48%, 27%);
+    bottom: -250px;
+    z-index: 2;
 }
