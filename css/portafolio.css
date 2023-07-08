@@ -170,81 +170,86 @@ a:hover{
     bottom: -250px;
     z-index: 2;
 }
-@media only screen and (max-width: 500px) {
+
+  
+@media screen and (max-width: 600px) {
+    .principal {
+        transform: translateY(10vh);
+      }
+
     *{
         background-color: hsl(182, 48%, 27%);
-    }
-    .box {
-        width: 100%;
-        height: 100%;
-    }
-    .main-box {
-        display: none;
-    }
-    .NUM {
-        display: none;
-    }
-    .dar{
-        position: relative;
-        top: 200px;
-        left: 210px;
-    }
-    .img{
-        position:absolute;
-        top: 35px;
-        right: 65px;
-        width: 150px;
-        height: 150px;
-    }
-.perfil{
-    position:fixed;
-    top: 500px;
-    left: 180px;
 
 }
-.perfil1{
-    position:fixed;
-    top: 600px;
-    left: 120px;
-    
-}
-
-.infor{
+.box{
+    width: 400px;
     position: fixed;
-    top: 650px;
-    left: 100px;
-    z-index: 2;
+    top: 0px;
+    left: 40px;
+    min-width: 400px;
+    max-width: 400px;
+}
+.main-box{
+    display: none;
+}
+.NOM{
+    position: relative;
+    left: 80px;
+}
+.dar{
+    position: relative;
+    left: 80px;
+    top: 210px;
+
+}
+.darwin1{
+    position: absolute;
+    top: 490px;
+    left: 80px;
+}
+.DARWIN{
+    position: relative;
+    top: 240px;
+    left: 80px;
+}
+.darwin{
+    z-index: 1;
+    position: relative;
+    top: 250px;
+    left: 80px;
 }
 .profesion{
     display: none;
 }
-.NOM{
+.NUM{
+    display: none;
+}
+.perfil{
     position: fixed;
-    top: 14px;
-    left: 210px;
+    top: 900px;
+    left: 0;
+    
+}
+.perfil1{
+    position:relative;
+    top: 990px;
+    left: 0px;
+}
+.infor{
+    position: fixed;
+    top: 650px;
+    left:0px;
     z-index: 1;
-}
-.darwin{
-    position: absolute;
-    top: 350px;
-left: 200px;
-z-index: 1;
-}
-.DARWIN{
-    position: absolute;
-    top: 320px;
-left: 200px;
- 
-}
-.darwin1{
-    position: absolute;
-    top: 300px;
-left: 200px;
 }
 .work{
     position: fixed;
-    left: 100%;
+    top: 70em;
+    left: 0px;
 }
-
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 40px;
 }
-
+}
